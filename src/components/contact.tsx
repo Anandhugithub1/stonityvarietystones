@@ -1,3 +1,6 @@
+
+"use client";
+
 import React from "react";
 import { Label } from "./label";
 import { Input } from "./input";
@@ -7,7 +10,7 @@ import * as Yup from "yup";
 
 export function SignupFormDemo() {
   return (
-    <div className="max-w-md w-full mx-auto rounded-none  p-8 md:p-8  bg-green-50  lg:ml-28  conatct-form " id="contact">
+    <div className="max-w-md w-full mx-auto rounded-none  p-8 md:p-8  bg-green-50  lg:ml-28  conatct-form " id="contact" >
       <h2 className="font-bold text-xl text-customColors-customgreen dark:text-neutral-200">
         Contact Us
       </h2>

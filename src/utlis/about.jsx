@@ -48,7 +48,7 @@ export const products = [
     title: "Pixel Perfect",
     link: "",
     thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/democlis.appspot.com/o/images%2Fphoto_2024-05-12_16-10-13.jpg?alt=media&token=0635c771-bbaa-400d-b2b9-f610f3bb5164",
+      "https://firebasestorage.googleapis.com/v0/b/democlis.appspot.com/o/images%2Fphoto_2024-05-12_16-10-20.jpg?alt=media&token=cf89ccda-c8a2-4c9d-972b-3f380f3c4879",
   },
 
   {
@@ -61,7 +61,8 @@ export const products = [
     title: "Aceternity UI",
     link: "",
     thumbnail:
-      "https://firebasestorage.googleapis.com/v0/b/democlis.appspot.com/o/images%2Fphoto_2024-05-12_16-10-20.jpg?alt=media&token=cf89ccda-c8a2-4c9d-972b-3f380f3c4879",
+      "https://firebasestorage.googleapis.com/v0/b/democlis.appspot.com/o/images%2Fphoto_2024-05-12_16-10-13.jpg?alt=media&token=0635c771-bbaa-400d-b2b9-f610f3bb5164",
   },
   
 ];
+

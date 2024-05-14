@@ -16,7 +16,7 @@ export const HeroParallax = ({
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start start", "end start"],
+    offset: ["start start", ],
   });
 
   const springConfig = { stiffness: 300, damping: 30, bounce: 100 };
@@ -47,12 +47,13 @@ export const HeroParallax = ({
   );
 
   // Calculate the height of the hero section based on viewport height
-  const heroHeight = `calc(100vh - 10rem)`; // Adjust as needed
+  const heroHeight = ``; // Adjust as needed
 
   return (
     <div
       ref={ref}
-      className={`h-${heroHeight} overflow-hidden antialiased relative flex flex-col self-auto perspective-1000px transform-style-preserve-3d`}
+      className={`overflow-hidden antialiased relative flex flex-col self-auto perspective-1000px transform-style-preserve-3d`}
+      style={{height:'600px'}}
    id="about" >
       <Header />
       <motion.div
@@ -68,7 +69,7 @@ export const HeroParallax = ({
           {firstRow.map((product) => (
             <ProductCard
               product={product}
-              translate={translateX}
+              // translate={translateX}
               key={product.title}
             />
           ))}
@@ -77,7 +78,7 @@ export const HeroParallax = ({
           {secondRow.map((product) => (
             <ProductCard
               product={product}
-              translate={translateXReverse}
+              // translate={translateXReverse}
               key={product.title}
             />
           ))}
@@ -86,7 +87,7 @@ export const HeroParallax = ({
           {thirdRow.map((product) => (
             <ProductCard
               product={product}
-              translate={translateX}
+              // translate={translateX}
               key={product.title}
             />
           ))}
@@ -121,12 +122,12 @@ export const ProductCard = ({
     link: string;
     thumbnail: string;
   };
-  translate: MotionValue<number>;
+  translate?: MotionValue<number>;
 }) => {
   return (
     <motion.div
       style={{
-        x: translate,
+        // x: translate,
       }}
       whileHover={{
         y: -20,
@@ -140,7 +141,7 @@ export const ProductCard = ({
           height="600"
           width="600"
           className="object-cover object-left-top absolute h-full w-full inset-0"
-          alt={product.title}
+          alt={product.title} loading="lazy"
         />
       <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
       <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">

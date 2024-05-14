@@ -38,7 +38,7 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 1 }}
           className="mt-10"
         >
-         <a href='#contact'>
+         <a href='#contact' loading="lazy">
 
          <Button
             borderRadius="1rem"
