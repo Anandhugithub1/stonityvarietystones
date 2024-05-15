@@ -51,9 +51,7 @@ Get Started
       </div>
       {/* Decorative elements */}
       <div className="absolute bottom-0 left-0 right-0">
-        <svg className="text-gray-700 h-12 w-full" viewBox="0 0 1440 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fillRule="evenodd" clipRule="evenodd" d="M1440 200V0H0V157.5C0 157.5 240 39.5 480 118.5C720 197.5 960 157.5 1200 78.5C1440 -0.5 1440 200 1440 200Z" fill="#222"/>
-        </svg>
+        
       </div>
     </div>
   );
