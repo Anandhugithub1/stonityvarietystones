@@ -36,7 +36,7 @@ const NavbarComponent = () => {
         </div>
         <div className={`${isOpen ? "block" : "hidden"} md:hidden`}>
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="/" className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-sm font-medium">About</a>
+            <a href="#about" className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-sm font-medium">About</a>
             <a href="#services" className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-sm font-medium">Services</a>
             <a href="#contact" className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-sm font-medium">Contact</a>
 

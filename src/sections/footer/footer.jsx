@@ -3,7 +3,7 @@ import { faFacebook,  faInstagram, faWhatsapp, faYoutube } from "@fortawesome/fr
 
 const Footer = () => {
   return (
-    <footer className="p-4 bg-customColors-customgreen md:p-8 lg:p-10 dark:bg-gray-800 font-custom">
+    <footer className="p-4 bg-customColors-customgreen md:p-8 lg:p-10 dark:bg-gray-800 font-custom" id="footer" > 
       <div className="mx-auto max-w-screen-xl text-center">
         <a href="#" className="flex justify-center items-center text-2xl font-semibold text-white dark:text-white">
           ꜱᴛᴏɴɪᴛʏ
@@ -14,7 +14,9 @@ const Footer = () => {
             <a href="#about" className="mr-4 hover:underline md:mr-6">About</a>
           </li>
          
-         
+          <li>
+            <a href="#services" className="mr-4 hover:underline md:mr-6">Services</a>
+          </li>
           <li>
             <a href="#contact" className="mr-4 hover:underline md:mr-6">Contact</a>
           </li>
