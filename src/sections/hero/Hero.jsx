@@ -5,8 +5,7 @@ const HeroSection = () => {
   return (
     <div className="relative bg-gray-900 overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0">
-        {/* You can use Swiper.js or any other slider library here */}
+      <div className="absolute inset-0"> 
         <img className="w-full h-full object-cover" src="https://img.freepik.com/premium-photo/nature39s-palette-rich-palette-nature39s-hues-organic-elements-serene-tranquility-comes-together-harmonious-fusion-painting-serene-captivating-picture-natural-world_271410-7434.jpg" alt="Landscaping Business" />
         {/* Overlay */}
         <div className="absolute inset-0 bg-gray-900 opacity-75"></div>
